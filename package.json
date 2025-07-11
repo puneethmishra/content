@@ -1,0 +1,21 @@
+{
+  "name": "whatsapp-mcp-dashboard",
+  "version": "1.0.0",
+  "description": "WhatsApp MCP Dashboard for message broadcasting, classification, and automated responses",
+  "main": "index.js",
+  "scripts": {
+    "install-frontend": "cd frontend && npm install",
+    "install-backend": "cd backend && pip install -r requirements.txt",
+    "start-frontend": "cd frontend && npm start",
+    "start-backend": "cd backend && uvicorn main:app --reload --host 0.0.0.0 --port 8000",
+    "dev": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+    "build": "cd frontend && npm run build",
+    "setup": "npm run install-frontend && npm run install-backend"
+  },
+  "keywords": ["whatsapp", "mcp", "dashboard", "ai", "messaging"],
+  "author": "AI Assistant",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
