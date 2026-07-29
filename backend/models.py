@@ -95,4 +95,4 @@ class Analytics(Base):
     date = Column(DateTime, index=True)
     metric_name = Column(String(50), index=True)
     metric_value = Column(Float)
-    metadata = Column(Text)  # JSON string for additional data
+    extra_data = Column("metadata", Text)  # JSON string for additional data ('metadata' attr name is reserved by SQLAlchemy)
