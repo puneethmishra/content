@@ -40,3 +40,19 @@ __MACOSX/
 
 #Ipython
 .ipynb_checkpoints/
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Node
+node_modules/
+
+# Environment files
+.env
+backend/.env
+
+# SQLite databases
+*.db
+

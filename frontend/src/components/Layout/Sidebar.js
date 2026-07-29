@@ -18,7 +18,7 @@ import {
   People,
   Category,
   AutoMode,
-  Broadcast,
+  Campaign,
   Analytics,
   Settings,
   WhatsApp,
@@ -32,7 +32,7 @@ const menuItems = [
   { text: 'Contacts', icon: <People />, path: '/contacts' },
   { text: 'Classifications', icon: <Category />, path: '/classifications' },
   { text: 'Auto-Responses', icon: <AutoMode />, path: '/auto-responses' },
-  { text: 'Broadcast', icon: <Broadcast />, path: '/broadcast' },
+  { text: 'Broadcast', icon: <Campaign />, path: '/broadcast' },
   { text: 'Analytics', icon: <Analytics />, path: '/analytics' },
   { text: 'Settings', icon: <Settings />, path: '/settings' },
 ];
